@@ -107,7 +107,7 @@ def serialize_context(context_list):
 
 @st.cache_resource
 def load_vector_store(_sbert_embeddings):
-    return FAISS.load_local("Embeddings_chonkie", _sbert_embeddings, allow_dangerous_deserialization=True)
+    return FAISS.load_local("../Embeddings_chonkie", _sbert_embeddings, allow_dangerous_deserialization=True)
 
 class State(TypedDict):
     question: str
