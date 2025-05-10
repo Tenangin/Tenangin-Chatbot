@@ -27,7 +27,7 @@ load_dotenv()
 
 # Set page config
 st.set_page_config(
-    page_title="Teno - Konselor AI",
+    page_title="Teno - Konselor AI (Beta)",
     page_icon="🧠",
     layout="centered"
 )
@@ -185,10 +185,10 @@ def initialize_session_state():
 
 def main():
     # Title and description
-    st.title("Teno - Konselor AI 🧠")
+    st.title("Teno - Empatic Chatbot 🧠")
     st.markdown("""
-    Selamat datang di Teno, asisten virtual yang siap membantu Anda. 
-    Teno dirancang untuk memberikan dukungan dan pemahaman dengan pendekatan yang empatik.
+    Hai, Aku Teno
+    Aku teman untukmu bercerita
     """)
     
     # Initialize session state
