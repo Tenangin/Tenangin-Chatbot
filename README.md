@@ -1,6 +1,8 @@
-# Tenangin Chatbot Project
+# Tenangin Chatbot Development
 
 **Tenangin Chatbot** is a Retrieval-Augmented Generation (RAG) based chatbot designed to provide information and answers to questions about mental health. This project uses a collection of data from books and blog articles to build its knowledge base and leverages it to provide relevant and informative responses.
+
+This is a repository for developing feature Chatbot RAG in Tenangin Applications. 
 
 ## Table of Contents
 
@@ -29,6 +31,8 @@ The system is built with a RAG architecture that consists of several main stages
 4.  **Information Retrieval**: When a user asks a question, the query is also converted into an embedding. The system then uses a similarity search (e.g., cosine similarity) to find the text chunks from the knowledge base that are most relevant to the user's question.
 
 5.  **Answer Generation**: The most relevant text chunks are combined with the user's original question. This combined text is then fed into a Large Language Model (LLM) as context. The LLM's task is to generate a coherent, fluent, and contextual answer based on the provided information. This inference process can be seen in `Inference/inference.py`.
+
+6. **With Framework Langchain** : This Chabot RAG using framework **Langchain** for fast and sustainable development.
 
 ## Directory Structure
 
